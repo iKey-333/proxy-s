@@ -1,0 +1,159 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 320px;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-pss {
+    background: linear-gradient(90deg, #22285A 0%, #417FE4 100%);
+}
+
+header a img {
+    width: 152px;
+}
+
+header {
+    height: 48px;
+}
+
+header .navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.wrapper {
+    border: 0px solid #fff;
+}
+
+.title {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.links a {
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+}
+.links a:hover {
+    color: rgba(88, 193, 234, 1);
+}
+
+.links a span {
+    display: inline-block;
+    width: 20px;
+    margin-right: 6px;
+}
+
+.links a span img {
+    width: 18px;
+    margin-top: -2px;
+}
+
+.img-min {
+    width: 15px !important;
+}
+
+.empty-data {
+    background-color: #fff;
+    box-shadow: 0px 2px 16px 2px rgba(203, 203, 203, 0.4);
+    border-radius: 12px;
+}
+
+.empty-data .btext {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn-custom-blue {
+    padding: 0px 16px 0px 16px;
+    background-color: rgba(88, 193, 234, 1);
+    color: #fff;
+    border-radius: 8px;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.btn-custom-blue:hover {
+    color: #000;
+    background-color: rgba(88, 193, 234, 1);
+}
+
+.btn-custom-cancel {
+    padding: 0px 16px 0px 16px;
+    border-radius: 8px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(88, 193, 234, 1);
+}
+
+._color_proxy_in_table {
+    width: 16px;
+    height: 16px;
+    border-radius: 90px;
+}
+
+.empty-data .proxy_host {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.empty-data .proxy_name, .list_proxy_name {
+    color: rgba(200, 200, 200, 1);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.empty-data .change {
+    color: rgba(88, 193, 234, 1);
+    font-weight: 500;
+    font-size: 14px;
+}
+.empty-data .change img {
+    width: 16px;
+    height: 16px;
+}
+
+.empty-data .set-offline {
+    color: rgba(200, 200, 200, 1);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.on-hover:hover {
+    cursor: pointer;
+}
+
+.form-check-circle .form-check-input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(236, 236, 236, 1);
+}
+.form-check-circle .form-check-input:checked {
+    background-color: rgba(88, 193, 234, 1);
+    border-color: rgba(88, 193, 234, 1);
+}
+.form-check-circle .form-check-input:checked[type=radio] {
+    background-color: #fff;
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="5" r="5" fill="%2358C1EA"/></svg>');
+    background-position: center;
+    background-size: 9px 9px;
+}
+.form-check-circle label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+.change_proxy_list {
+    max-height: 240px;
+    overflow-y: auto;
+}

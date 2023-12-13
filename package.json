@@ -5,11 +5,20 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-watch": "vue-cli-service  --env.NODE_ENV=development build-watch --mode development"
   },
   "dependencies": {
+    "@iconify/vue2": "^2.1.0",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
+    "proxy-checker": "github:newx666/proxy-checker",
+    "vue": "^2.6.14",
+    "vue-swatches": "^2.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -17,14 +26,17 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "vue-cli-plugin-chrome-extension-cli": "~1.1.4",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "webextensions": true
     },
     "extends": [
       "plugin:vue/essential",
